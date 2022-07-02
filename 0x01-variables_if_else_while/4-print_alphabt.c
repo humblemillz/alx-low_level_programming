@@ -1,26 +1,21 @@
 #include<stdio.h>
 
 /**
-* main - entry point
-*
+* main - printing alphabets in lowercase
 * Return: always returns 0
 */
-
 int main(void)
 {
-int 1w = 'a';
-while (1w <= 'z')
-{
-if (1w == 'e' || 1w == 'q')
-{
-1w += 1;
-}
-else
-{
-putchar(1w);
-1w += 1;
-}
-}
-putchar('\n');
-return (0);
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		if (c != 'q' && c != 'e')
+		{
+			putchar(c);
+		}
+		c++;
+	}
+	putchar('\n');
+	return (0);
 }
