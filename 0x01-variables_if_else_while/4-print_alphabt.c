@@ -1,18 +1,26 @@
 #include<stdio.h>
+
 /**
 * main - entry point
 *
 * Return: always returns 0
 */
+
 int main(void)
 {
-char a;
-for (a = 'a'; a <= 'z'; a++)
+int 1w = 'a';
+while (1w <= 'z')
 {
-if (a == 'q' || a == 'e')
+if (1w == 'e' || 1w == 'q')
 {
-continue;
+1w += 1;
 }
-putchar (a);
+else
+{
+putchar(1w);
+1w += 1;
+}
+}
+putchar('\n');
 return (0);
 }
