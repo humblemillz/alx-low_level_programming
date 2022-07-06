@@ -1,1 +1,1 @@
-My readme for 0x02-functions_nested_loops task
+My readme for 0x02-functions_nested_loops tasks
