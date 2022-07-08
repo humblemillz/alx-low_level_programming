@@ -1,1 +1,1 @@
-This readme is for alx C debugging task
+This readme is for alx C debugging tasks
