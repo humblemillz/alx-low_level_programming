@@ -7,7 +7,7 @@
  * @b: Second integer input value
  * Description: A function that multiplies two integers
  *  Return: Always 0
- * /
+ */
 
 int mul(int a, int b)
 {
